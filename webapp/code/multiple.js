@@ -1,6 +1,6 @@
 // Example code with Command Injection vulnerability
 var userInputCommand = "echo 'Vulnerable Code';";
-var result = executeCommand(userInputCommand);
+// var result = executeCommand(userInputCommand);
 
 function executeCommand(command) {
     // Execute command without proper validation
