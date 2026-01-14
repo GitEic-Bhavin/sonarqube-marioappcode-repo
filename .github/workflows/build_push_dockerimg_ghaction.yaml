@@ -21,7 +21,7 @@ jobs:
         run: |
           docker build -t docker.io/bhavin1099/supermariogitopsproject:1 .
           docker push docker.io/bhavin1099/supermariogitopsproject:1 
-          docker save -o supermariolatestdockerimage.tar docker.io/raghuthesecurityexpert/supermariogitopsproject:1
+          docker save -o supermariolatestdockerimage.tar docker.io/bhavin1099/supermariogitopsproject:1
 
       - name: Run Trivy vulnerability scanner in tarball mode
         uses: aquasecurity/trivy-action@master
