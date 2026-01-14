@@ -5,6 +5,10 @@ on:
     branches:
       - master
 
+# Required to allow to push updated deployment.yml by github actions job.
+permissions:
+  contents: write
+
 jobs:
 
   sonarqube_sast_scan:
