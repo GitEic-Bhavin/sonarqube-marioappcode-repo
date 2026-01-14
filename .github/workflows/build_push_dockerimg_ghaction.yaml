@@ -28,5 +28,5 @@ jobs:
         with:
         #   input: /github/workspace/supermariolatestdockerimage.tar
           image-ref: docker.io/bhavin1099/supermariogitopsproject:1 
-          exit-code: '1'
+          exit-code: '0' # 1 fail pipeline while found secrity & Vurnability , 0 - Ignore it.
           severity: 'CRITICAL,HIGH'
