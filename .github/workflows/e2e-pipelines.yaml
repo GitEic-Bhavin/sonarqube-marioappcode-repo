@@ -11,7 +11,7 @@ env:
 jobs:
  
   sonarqube_sast_scan:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
  
     steps:
       - name: Checkout Repository
