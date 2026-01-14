@@ -11,7 +11,7 @@
 # jobs:
   
 #   run_container_image_scan_on_supermario_docker_image:
-#     runs-on: ubuntu-latest	
+    # runs-ons: ubuntu-latest	
  
 #     steps:
 #       - name: Checkout Repository
