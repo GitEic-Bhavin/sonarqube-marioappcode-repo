@@ -68,7 +68,8 @@ jobs:
         uses: aquasecurity/trivy-action@master
         with:
         #   input: /github/workspace/supermariolatestdockerimage.tar
-          image-ref: bhavin1099/supermariogitopsproject
+        #   image-ref: bhavin1099/supermariogitopsproject
+          image-ref: docker.io/bhavin1099/supermariogitopsproject:${{ env.VERSION }}
           exit-code: '0'
           severity: 'CRITICAL,HIGH'
           
